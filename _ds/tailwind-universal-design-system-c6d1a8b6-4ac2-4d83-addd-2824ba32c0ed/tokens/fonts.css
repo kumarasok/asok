@@ -1,0 +1,9 @@
+/* Webfonts are loaded from Google Fonts CDN. No binaries shipped with this system.
+   Inter = UI + display. JetBrains Mono = code, tabular data, token names. */
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap");
+
+:root{
+  --font-sans:"Inter","Helvetica Neue",Arial,system-ui,sans-serif;
+  --font-display:"Inter","Helvetica Neue",Arial,system-ui,sans-serif;
+  --font-mono:"JetBrains Mono",ui-monospace,SFMono-Regular,Menlo,monospace;
+}

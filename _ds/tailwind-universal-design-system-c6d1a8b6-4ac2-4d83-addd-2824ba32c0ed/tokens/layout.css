@@ -1,0 +1,33 @@
+:root{
+  --container-sm:640px;
+  --container-md:768px;
+  --container-lg:1024px;
+  --container-xl:1280px;
+  --container-2xl:1440px;
+  --container-prose:68ch;
+
+  --gutter-mobile:var(--space-4);
+  --gutter-tablet:var(--space-6);
+  --gutter-desktop:var(--space-8);
+
+  --grid-columns:12;/* @kind other */
+  --grid-gap-sm:var(--space-4);
+  --grid-gap:var(--space-6);
+  --grid-gap-lg:var(--space-8);
+
+  --bp-sm:640px;
+  --bp-md:768px;
+  --bp-lg:1024px;
+  --bp-xl:1280px;
+  --bp-2xl:1536px;
+
+  --sidebar-width:264px;
+  --sidebar-width-collapsed:72px;
+  --header-height:64px;
+  --z-base:0;/* @kind other */
+  --z-sticky:100;/* @kind other */
+  --z-drawer:200;/* @kind other */
+  --z-modal:300;/* @kind other */
+  --z-popover:400;/* @kind other */
+  --z-toast:500;/* @kind other */
+}

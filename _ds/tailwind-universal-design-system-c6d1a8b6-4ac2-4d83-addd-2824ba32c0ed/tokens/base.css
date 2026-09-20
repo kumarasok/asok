@@ -1,0 +1,10 @@
+*,*::before,*::after{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg-page);color:var(--text-primary);font-family:var(--font-sans);font-size:var(--text-body-md);line-height:var(--leading-normal);-webkit-font-smoothing:antialiased}
+a{color:var(--text-link);text-decoration-color:color-mix(in oklch,currentColor 35%,transparent);text-underline-offset:2px}
+a:hover{color:var(--text-link-hover);text-decoration-color:currentColor}
+:where(button,input,select,textarea){font:inherit;color:inherit}
+:where(h1,h2,h3,h4,h5,h6){margin:0;font-weight:var(--weight-semibold);letter-spacing:var(--tracking-tight);line-height:var(--leading-tight);text-wrap:balance}
+:where(p){margin:0;text-wrap:pretty}
+::selection{background:var(--color-primary-200);color:var(--color-primary-950)}
+:focus-visible{outline:2px solid var(--border-focus);outline-offset:2px}

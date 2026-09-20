@@ -1,0 +1,38 @@
+:root{
+  /* Fluid scale: min = mobile (360px), max = desktop (1440px) */
+  --text-display-1:clamp(2.75rem,1.6rem + 5.1vw,4.5rem); /* @kind spacing */
+  --text-display-2:clamp(2.25rem,1.45rem + 3.6vw,3.5rem); /* @kind spacing */
+  --text-h1:clamp(2rem,1.45rem + 2.4vw,3rem); /* @kind spacing */
+  --text-h2:clamp(1.625rem,1.3rem + 1.5vw,2.25rem); /* @kind spacing */
+  --text-h3:clamp(1.375rem,1.19rem + .8vw,1.75rem); /* @kind spacing */
+  --text-h4:clamp(1.1875rem,1.1rem + .4vw,1.375rem); /* @kind spacing */
+  --text-h5:1.125rem; /* @kind spacing */
+  --text-h6:1rem; /* @kind spacing */
+  --text-body-lg:1.125rem; /* @kind spacing */
+  --text-body-md:1rem; /* @kind spacing */
+  --text-body-sm:.875rem; /* @kind spacing */
+  --text-caption:.75rem; /* @kind spacing */
+  --text-label:.8125rem; /* @kind spacing */
+  --text-button-lg:1rem; /* @kind spacing */
+  --text-button-md:.875rem; /* @kind spacing */
+  --text-button-sm:.8125rem; /* @kind spacing */
+  --text-overline:.6875rem; /* @kind spacing */
+
+  --leading-none:1;
+  --leading-tight:1.15;
+  --leading-snug:1.3;
+  --leading-normal:1.5;
+  --leading-relaxed:1.65;
+
+  --tracking-tighter:-.03em;
+  --tracking-tight:-.018em;
+  --tracking-normal:0em;
+  --tracking-wide:.02em;
+  --tracking-wider:.08em;
+
+  --weight-regular:400;
+  --weight-medium:500;
+  --weight-semibold:600;
+  --weight-bold:700;
+  --weight-extrabold:800;
+}

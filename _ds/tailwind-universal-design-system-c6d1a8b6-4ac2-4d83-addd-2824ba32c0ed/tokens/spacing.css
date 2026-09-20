@@ -1,0 +1,18 @@
+:root{
+  /* 4px base, Tailwind-aligned (space-N = N * 0.25rem) */
+  --space-0:0rem;    --space-px:1px;   --space-0-5:.125rem; --space-1:.25rem;
+  --space-1-5:.375rem; --space-2:.5rem; --space-2-5:.625rem; --space-3:.75rem;
+  --space-3-5:.875rem; --space-4:1rem;  --space-5:1.25rem;   --space-6:1.5rem;
+  --space-7:1.75rem; --space-8:2rem;   --space-10:2.5rem;   --space-12:3rem;
+  --space-14:3.5rem; --space-16:4rem;  --space-20:5rem;     --space-24:6rem;
+  --space-32:8rem;   --space-40:10rem; --space-48:12rem;
+
+  /* Purposeful aliases */
+  --space-control-x:var(--space-4);
+  --space-control-y:var(--space-2-5);
+  --space-card:var(--space-6);
+  --space-stack:var(--space-4);
+  --space-section-sm:var(--space-12);
+  --space-section:clamp(3rem,2rem + 4vw,6rem);
+  --space-section-lg:clamp(4rem,2.5rem + 6vw,8rem);
+}

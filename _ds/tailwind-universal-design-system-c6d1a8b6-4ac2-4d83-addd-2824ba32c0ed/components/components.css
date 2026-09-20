@@ -1,0 +1,10 @@
+@import url("./forms/forms.css");
+@import url("./display/display.css");
+@import url("./feedback/feedback.css");
+@import url("./navigation/navigation.css");
+@import url("./icon/icon.css");
+
+@keyframes ds-spin{to{transform:rotate(360deg)}}
+@keyframes ds-shimmer{100%{background-position:-200% 0}}
+@keyframes ds-fade-in{from{opacity:0;transform:translateY(4px)}to{opacity:1;transform:none}}
+@keyframes ds-slide-up{from{opacity:0;transform:translateY(12px)}to{opacity:1;transform:none}}
